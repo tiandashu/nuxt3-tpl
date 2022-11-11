@@ -1,6 +1,8 @@
 {
   "private": true,
   "scripts": {
+    "clc": "npx nuxi cleanup",
+    "cl": "rm -rf node_modules yarn.lock",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
