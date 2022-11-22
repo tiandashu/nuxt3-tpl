@@ -12,13 +12,20 @@ module.exports = {
   ],
   overrides: [],
 
-  parser: '@typescript-eslint/parser',
+  parser: 'vue-eslint-parser',
   parserOptions: {
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': 1, // 0 代表 off 关闭, 1 代表 warning, 2 代表 error
+    'prettier/prettier': 0, // 0 代表 off 关闭, 1 代表 warning, 2 代表 error
+    'vue/multi-word-component-names': [
+      0,
+      {
+        ignores: [],
+      },
+    ],
   },
 };

@@ -28,7 +28,8 @@
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-prettier": "^2.0.0"
+    "stylelint-prettier": "^2.0.0",
+    "vue-eslint-parser": "^9.1.0"
   },
   "lint-staged": {
     "*.{css,less,scss,js,jsx,ts,tsx,json,md}": "prettier --write --ignore-unknown"
